@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'AppDeviceFarm'
-    }
-
-  }
+  agent any
   stages {
     stage('Staging') {
       steps {
