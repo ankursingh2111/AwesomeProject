@@ -52,7 +52,7 @@ exports.config = {
     profile: [],
     // <string[]> (file/dir) require files before executing features
     require: [
-        './__tests__/steps/*.js',
+        './__tests__/features/steps/*.js',
     ],
     // <string> specify a custom snippet syntax
     snippetSyntax: undefined,
