@@ -51,4 +51,7 @@
     "react-devtools",
     "react-native"
   ]
+},
+"jest": {
+  "preset": "react-native"
 }
